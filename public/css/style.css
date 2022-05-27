@@ -1,0 +1,106 @@
+:root {
+    --white: #eeecea;
+    --yellow: #F6BD60;
+    --black: #2D2D34;
+}
+
+body {
+    margin: 0%;
+    padding: 200px;
+    padding-top: 100px;
+    font-family: Helvetica, sans-serif, monospace;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.logo {
+    color: var(--yellow);
+    font-size: 124px;
+    font-weight: bold;
+}
+
+.line {
+    background-color: var(--yellow);
+    width: 100rem;
+    height: 0.5rem;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    color: var(--black);
+    background-color: var(--yellow);
+    border: 0px;
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    color: var(--yellow);
+    border-color: var(--yellow);
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.btn-outline-primary:hover {
+    color: var(--black);
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+.genre-title {
+    color: var(--yellow);
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.line-small {
+    background-color: var(--yellow);
+    width: 15rem;
+    height: 0.2rem;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.genre-content {
+    display: flex;
+    flex-direction: row;
+    width: 100rem;
+    justify-content: space-between;
+}
+
+.card {
+    border: 0px;
+    border-radius: 0px;
+}
+
+.card-img-top {
+    border-radius: 0px;
+    height: 500px;
+}
+
+.card-body {
+    background-color: var(--yellow);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--black);
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-lihat {
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: normal;
+    font-size: 18px;
+}
