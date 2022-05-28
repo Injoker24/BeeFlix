@@ -16,7 +16,7 @@
                 <div class="card-body">
                     <div class="card-title">{{$movie->title}}</div>
                     <div class="d-grid gap-2">
-                        <button class="btn btn-primary btn-lg btn-lihat" type="button">Lihat Film</button>
+                        <a href="/movie/{{$movie->id}}" class="btn btn-primary btn-lg btn-lihat" type="button">Lihat Film</a>
                     </div>
                 </div>
             </div>
